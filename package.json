@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sorenhoyer/react-routable.git"
+    "url": "git+https://github.com/sorenhoyer/react-create-resource.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sorenhoyer/react-routable/issues"
+    "url": "https://github.com/sorenhoyer/react-create-resource/issues"
   },
-  "homepage": "https://github.com/sorenhoyer/react-routable#readme",
+  "homepage": "https://github.com/sorenhoyer/react-create-resource#readme",
   "devDependencies": {
     "@sorenhoyer/eslint-config-base": "^2.0.0",
     "@sorenhoyer/prettier-config": "^2.0.0",
