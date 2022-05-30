@@ -1,6 +1,6 @@
 {
   "name": "react-create-resource",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create a generic resource, given some method to asynchronously load a value",
   "main": "dist/main/index.js",
   "module": "dist/module/index.js",
