@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "rootDir": "src",
+    "outDir": "dist/main",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "declaration": true,
+    "inlineSourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "traceResolution": false,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": [
+      /* Type declaration files to be included in compilation. */
+      "jest"
+    ],
+  },
+  "include": ["src"],
+  "exclude": [
+    "node_modules",
+    "**/*.test.*",
+    "**/__mocks__/*",
+    "**/__tests__/*"
+  ],
+  "compileOnSave": false
+}

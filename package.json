@@ -1,0 +1,51 @@
+{
+  "name": "react-create-resource",
+  "version": "0.0.1",
+  "description": "Create a generic resource, given some method to asynchronously load a value",
+  "main": "dist/main/index.js",
+  "module": "dist/module/index.js",
+  "types": "dist/main/index.d.ts",
+  "scripts": {
+    "build:main": "yarn tsc",
+    "build:module": "yarn tsc -p tsconfig.module.json",
+    "build": "rimraf dist && yarn build:main && yarn build:module",
+    "lint": "eslint src/**/*.{js,jsx,ts,tsx}",
+    "lint:fix": "eslint src/**/*.{js,jsx,ts,tsx} --fix",
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorenhoyer/react-routable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sorenhoyer/react-routable/issues"
+  },
+  "homepage": "https://github.com/sorenhoyer/react-routable#readme",
+  "devDependencies": {
+    "@sorenhoyer/eslint-config-base": "^2.0.0",
+    "@sorenhoyer/prettier-config": "^2.0.0",
+    "@types/invariant": "^2.2.35",
+    "@types/jest": "^27.5.1",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.0",
+    "prettier": "^2.6.2",
+    "ts-jest": "^28.0.3",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "invariant": "^2.2.4"
+  }
+}
