@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@sorenhoyer/eslint-config-react'],
+  extends: ['@sorenhoyer/eslint-config-base'],
   ignorePatterns: [
     '.vscode',
     'coverage',
@@ -19,16 +19,7 @@ module.exports = {
         jsx: 'never',
       },
     ],
-    'react/function-component-definition': [
-      2,
-      {
-        namedComponents: 'arrow-function',
-        unnamedComponents: 'arrow-function',
-      },
-    ],
-    'react/require-default-props': 'off',
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': ['error'],
-    'react/react-in-jsx-scope': 'off',
   },
 };

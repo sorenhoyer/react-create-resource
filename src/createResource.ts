@@ -9,7 +9,7 @@ const enum State {
 }
 
 /**
- * A generic resource: 
+ * A generic resource:
  * Given some method to asynchronously load a value - the loader()
  * argument - it allows accessing the state of the resource.
  */
